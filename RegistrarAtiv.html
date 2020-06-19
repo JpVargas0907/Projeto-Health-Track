@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Atividades</title>
+        <meta charset="utf-8">
+        
+        <link href="dash.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="Registros.css" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="text_style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h2 id="h1header">Registro de Atividades <img src="https://img.icons8.com/metro/26/000000/dumbbell.png"/></h2>
+        </header>
+        <input type="checkbox" id="chec">
+        <label for="chec">
+            <img id="menu" src="icons/menu-alt-128.webp">
+        </label>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html"><b>HOME</b></a></li>
+                <li><a href="RegistrarRef.html"><b>REGISTRAR REFEIÇÃO</b></a></li>
+                <li><a href="RegistrarAtiv.html"><b>REGISTRAR ATIVIDADE</b></a></li>
+                <li><a href="RegistrarPeso.html"><b>REGISTRAR PESO</b></a></li>
+                <li><a href="telaLog.html"><b>SAIR</b></a></li>
+                  
+            </ul>
+        </nav>
+        
+        <div class = "container" id="tabela">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Data</th>
+                        <th scope="col">Atividade</th>
+                        <th scope="col">Calorias perdidas</th>
+                        <th scope="col">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr scope="row">
+                        <td>08/06/2020</td>
+                        <td>Corrida 10km</td>
+                        <td>950 cal</td>
+                        <td><img id="pen" src="https://img.icons8.com/android/24/000000/pencil.png" >
+                            <img id="lixeira" src="https://img.icons8.com/material-rounded/24/000000/delete-trash.png"/></td>
+                    </tr>
+                    <tr scope="row">
+                        <td>08/06/2020</td>
+                        <td>Corrida 2km</td>
+                        <td>220 cal</td>
+                        <td>
+                            <img id="pen" src="https://img.icons8.com/android/24/000000/pencil.png" >
+                            <img id="lixeira" src="https://img.icons8.com/material-rounded/24/000000/delete-trash.png"/></td>
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td>08/06/2020</td>
+                        <td>Pular corda 5m</td>
+                        <td>100 cal</td>
+                        <td>
+                            <img id="pen" src="https://img.icons8.com/android/24/000000/pencil.png" >
+                            <img id="lixeira" src="https://img.icons8.com/material-rounded/24/000000/delete-trash.png"/></td>
+                        </td>
+                    </tr>
+                    <tr scope="row">
+                        <td>08/06/2020</td>
+                        <td>Ciclismo 20km</td>
+                        <td>550 cal</td>
+                        <td>
+                            <img id="pen" src="https://img.icons8.com/android/24/000000/pencil.png" >
+                            <img id="lixeira" src="https://img.icons8.com/material-rounded/24/000000/delete-trash.png"/></td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="registro" class="container">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="atividade" placeholder="Digite a atividade">
+                </div>
+                
+                <div class="form-group">
+                    <input type="date" class="form-control" id="data">
+                </div>
+                
+                <div class="form-group">
+                    <input type="number" class="form-control" id="calorias" placeholder="Digite a quantidade de calorias">
+                </div>
+
+                <button type="submit" class="btn btn-default">Registrar</button>
+            </form>
+        </div>
+    </body>
+</html>

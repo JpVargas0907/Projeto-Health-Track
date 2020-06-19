@@ -1,0 +1,30 @@
+<!-- Declaração obrigatória para o funcionamento do framework. -->
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <!-- Determina uma descrição para a página.-->
+        <meta name="description" content="EXEMPLO -  BOOTSTRAP">
+        <!-- Seta o nome do criado da página.-->
+        <meta name="author" content="Jorginho">
+<!-- Faz com que a página ocupe todo o espaço da tela do dispositivo que é apresentada.   Idependente de framework deve ser utilizada.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Força o IE a utilizar as definições mais recentes de css para não quebrar o visual da página -->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <!-- Referência ao arquivo css minified do bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+       
+    </head>
+
+    <body>
+
+        <p>HELLO BOOTSTRAP!</p>
+
+<!-- Os arquivos js foram colocados aqui devido as boas práticas para tornar a carga da página mais rápida. -->
+<!-- Referência ao JQuery deve ser o primeiro arquivo js a ser carregado devido a precedência, caso isso não seja respeitado, o framework não vai funcionar.-->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <!-- Referência ao arquivo js minified do bootstrap -->
+        <script src="js/bootstrap.min.js"></script> 
+    </body>
+</html>

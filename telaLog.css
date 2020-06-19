@@ -1,0 +1,24 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#log{
+    padding: 0px;
+    width: 30%;
+    text-align: left;
+}
+
+#logo{
+    padding-top: 120px;
+    text-align: center;
+}
+
+@media(max-width: 600px){
+    #log{
+       padding: 0px;
+       width: 80%;
+       text-align: left;
+    }
+}

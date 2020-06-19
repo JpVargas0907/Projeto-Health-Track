@@ -1,0 +1,31 @@
+#tabela{
+    padding-top: 80px;
+    text-align: left;
+    width: 40%;
+}
+
+#registro{
+    width: 40%;
+    
+}
+
+#pen{
+    width: 20px;
+    text-align: left;
+}
+#lixeira{
+    width: 20px;
+    text-align: right;
+}
+
+@media (max-width: 600px){
+    #tabela{
+        padding-top: 80px;
+        text-align: left;
+        width: 80%;
+    }
+    #registro{
+        width: 80%;   
+    }
+    
+}
